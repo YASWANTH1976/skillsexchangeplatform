@@ -1,6 +1,7 @@
 # LocalSkillSwap - Skill Exchange Platform
 
 LocalSkillSwap is a comprehensive web application that connects people who want to learn skills with those who can teach them locally. Built with Flask and modern web technologies, it provides a complete platform for skill sharing, booking sessions, and building community connections.
+Live Demo : [View Website] https://localskillswap.netlify.app/
 
 ## 🚀 Features
 
