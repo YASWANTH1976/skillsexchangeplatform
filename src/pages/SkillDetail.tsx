@@ -3,8 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { Star, MapPin, Clock, Calendar, User, MessageCircle, Shield } from 'lucide-react';
 
 const SkillDetail: React.FC = () => {
-  const { id } = useParams();
-
   // Mock data - in a real app, this would be fetched based on the ID
   const skill = {
     id: 1,
