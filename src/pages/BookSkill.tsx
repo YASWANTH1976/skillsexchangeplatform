@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Calendar, Clock, MapPin, Shield } from 'lucide-react';
 
 const BookSkill: React.FC = () => {
-  const { id } = useParams();
   const navigate = useNavigate();
   const [selectedDate, setSelectedDate] = useState('');
   const [selectedTime, setSelectedTime] = useState('');
