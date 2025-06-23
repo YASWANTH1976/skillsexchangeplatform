@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Calendar, Clock, MapPin, User, CreditCard, Shield } from 'lucide-react';
+import { Calendar, Clock, MapPin, Shield } from 'lucide-react';
 
 const BookSkill: React.FC = () => {
   const { id } = useParams();
