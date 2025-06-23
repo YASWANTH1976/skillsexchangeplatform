@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Upload, X } from 'lucide-react';
 
 const AddSkill: React.FC = () => {
   const navigate = useNavigate();
