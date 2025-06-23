@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="I4jnsz9MqAWkB3VVj2zj17z6NaElfd74c_sy7Wl928E" />
     <title>LocalSkillSwap - Flask Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Free CSS framework -->
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="container mt-4 text-center">
+      <h1>Welcome to LocalSkillSwap</h1>
+      <p>Trade skills with your neighbors!</p>
+      <a href="/skills" class="btn btn-primary">See Available Skills</a>
+      <p><a href="/feedback">Give Feedback</a></p>
+    </div>
+    <!-- Remove or comment out the .tsx script for now -->
+    <!-- <script type="module" src="/src/main.tsx"></script> -->
   </body>
 </html>
