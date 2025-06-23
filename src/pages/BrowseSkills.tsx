@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Star, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { Search, Star, MapPin, Clock, ArrowRight } from 'lucide-react';
 
 const BrowseSkills: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
