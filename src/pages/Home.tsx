@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Users, BookOpen, Star, ArrowRight, CheckCircle } from 'lucide-react';
+import { Search, Users, BookOpen, Star, ArrowRight } from 'lucide-react';
 
 const Home: React.FC = () => {
   const featuredSkills = [
